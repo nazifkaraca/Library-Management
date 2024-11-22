@@ -12,6 +12,7 @@ namespace Library
 
             builder.Services.AddDbContext<LibraryContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+			builder.Services.AddScoped<IAuthorService, AuthorService>();
 			builder.Services.AddScoped<IBookService, BookService>();
 
             // Add services to the container.

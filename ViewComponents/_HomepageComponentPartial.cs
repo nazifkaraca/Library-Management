@@ -1,20 +1,26 @@
 ﻿using Library.DAL.Context;
+using Library.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Library.ViewComponents
 {
 	public class _HomepageComponentPartial : ViewComponent
 	{
-		public readonly LibraryContext _context;
+        public readonly IAuthorService authorService;
+        public readonly IBookService bookService;
 
-		public _HomepageComponentPartial(LibraryContext context)
-		{
-			_context = context;
-		}
+        public _HomepageComponentPartial(IAuthorService authorService, IBookService bookService)
+        {
+            this.authorService = authorService;
+            this.bookService = bookService;
+        }
 
 		public IViewComponentResult Invoke()
 		{
-			return View();
+            ViewBag.Authors = authorService.GetAuthors();
+			ViewBag.Books = bookService.GetAllBooks();
+
+            return View();
 		}
 	}
 }

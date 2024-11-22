@@ -1,70 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\er\\source\\repos\\Library\\",
+  "WorkspaceRootPath": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\views\\shared\\components\\_layoutnavbarcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:views\\shared\\components\\_layoutnavbarcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\views\\author\\updateauthor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:views\\author\\updateauthor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:views\\author\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\viewcomponents\\_layoutnavbarcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:viewcomponents\\_layoutnavbarcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\viewcomponents\\_homepagecomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:viewcomponents\\_homepagecomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\services\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:services\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\viewcomponents\\_bookcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:viewcomponents\\_bookcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\dal\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:dal\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\viewcomponents\\_authorcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:viewcomponents\\_authorcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\views\\shared\\components\\_authorcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:views\\shared\\components\\_authorcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\viewcomponents\\_aboutcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:viewcomponents\\_aboutcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\views\\shared\\components\\_aboutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\views\\shared\\components\\_aboutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:views\\shared\\components\\_aboutcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\dal\\context\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:dal\\context\\librarycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\views\\shared\\components\\_layoutnavbarcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:views\\shared\\components\\_layoutnavbarcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\views\\shared\\components\\_bookcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:views\\shared\\components\\_bookcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\viewcomponents\\_authorcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:viewcomponents\\_authorcomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\er\\source\\repos\\library\\migrations\\20241121221121_initialmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:migrations\\20241121221121_initialmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|c:\\users\\monst\\source\\repos\\librarymanagement\\viewcomponents\\_homepagecomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{383612BB-943B-42F5-BD86-93C9F591AAAD}|Library.csproj|solutionrelative:viewcomponents\\_homepagecomponentpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,226 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_LayoutNavbarComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\ViewComponents\\_LayoutNavbarComponentPartial.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\_LayoutNavbarComponentPartial.cs",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\ViewComponents\\_LayoutNavbarComponentPartial.cs",
-              "RelativeToolTip": "ViewComponents\\_LayoutNavbarComponentPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:12:14.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_HomepageComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\ViewComponents\\_HomepageComponentPartial.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\_HomepageComponentPartial.cs",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\ViewComponents\\_HomepageComponentPartial.cs",
-              "RelativeToolTip": "ViewComponents\\_HomepageComponentPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:11:30.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_AboutComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\ViewComponents\\_AboutComponentPartial.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\_AboutComponentPartial.cs",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\ViewComponents\\_AboutComponentPartial.cs",
-              "RelativeToolTip": "ViewComponents\\_AboutComponentPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:11:27.132Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Author\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Author\\Index.cshtml",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Author\\Index.cshtml",
+              "RelativeToolTip": "Views\\Author\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T17:11:25.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\Views\\Shared\\Components\\_AboutComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_AboutComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\Views\\Shared\\Components\\_AboutComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\_AboutComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Shared\\Components\\_LayoutNavbarComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_LayoutNavbarComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Shared\\Components\\_LayoutNavbarComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\_LayoutNavbarComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T11:11:23.495Z",
+              "WhenOpened": "2024-11-22T16:49:37.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_AuthorComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\ViewComponents\\_AuthorComponentPartial.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\_AuthorComponentPartial.cs",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\ViewComponents\\_AuthorComponentPartial.cs",
-              "RelativeToolTip": "ViewComponents\\_AuthorComponentPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:10:14.731Z",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Shared\\Components\\_AuthorComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_AuthorComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Shared\\Components\\_AuthorComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\_AuthorComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T16:30:45.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LibraryContext.cs",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\DAL\\Context\\LibraryContext.cs",
-              "RelativeDocumentMoniker": "DAL\\Context\\LibraryContext.cs",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\DAL\\Context\\LibraryContext.cs",
-              "RelativeToolTip": "DAL\\Context\\LibraryContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:08:21.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-22T11:08:00.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:04:37.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\Services\\IBookService.cs",
-              "RelativeDocumentMoniker": "Services\\IBookService.cs",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\Services\\IBookService.cs",
-              "RelativeToolTip": "Services\\IBookService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T11:04:07.317Z",
+              "DocumentIndex": 0,
+              "Title": "UpdateAuthor.cshtml",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Author\\UpdateAuthor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Author\\UpdateAuthor.cshtml",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Author\\UpdateAuthor.cshtml",
+              "RelativeToolTip": "Views\\Author\\UpdateAuthor.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T16:12:51.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\Views\\Default\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Default\\Index.cshtml",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\Views\\Default\\Index.cshtml",
-              "RelativeToolTip": "Views\\Default\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T10:59:07.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\Views\\Shared\\Components\\_LayoutNavbarComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_LayoutNavbarComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\Views\\Shared\\Components\\_LayoutNavbarComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\_LayoutNavbarComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T10:59:26.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T10:59:22.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\Views\\Shared\\Components\\_BookComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_BookComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\Views\\Shared\\Components\\_BookComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\_BookComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwCIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T10:58:59.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20241121221121_initialmig.cs",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\Migrations\\20241121221121_initialmig.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241121221121_initialmig.cs",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\Migrations\\20241121221121_initialmig.cs",
-              "RelativeToolTip": "Migrations\\20241121221121_initialmig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "Controllers\\AuthorController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswC4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:57:26.833Z",
+              "WhenOpened": "2024-11-22T15:27:35.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Services\\AuthorService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Services\\AuthorService.cs",
+              "RelativeToolTip": "Services\\AuthorService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:21:38.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Services\\IAuthorService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthorService.cs",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Services\\IAuthorService.cs",
+              "RelativeToolTip": "Services\\IAuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:35:49.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_BookComponentPartial.cs",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\ViewComponents\\_BookComponentPartial.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\_BookComponentPartial.cs",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\ViewComponents\\_BookComponentPartial.cs",
-              "RelativeToolTip": "ViewComponents\\_BookComponentPartial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\DAL\\Entities\\Author.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Author.cs",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\DAL\\Entities\\Author.cs",
+              "RelativeToolTip": "DAL\\Entities\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:54:47.781Z",
+              "WhenOpened": "2024-11-22T16:16:20.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\er\\source\\repos\\Library\\Services\\BookService.cs",
-              "RelativeDocumentMoniker": "Services\\BookService.cs",
-              "ToolTip": "C:\\Users\\er\\source\\repos\\Library\\Services\\BookService.cs",
-              "RelativeToolTip": "Services\\BookService.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDsAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Shared\\Components\\_AboutComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\_AboutComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Shared\\Components\\_AboutComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\_AboutComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T16:00:49.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:53:08.16Z",
+              "WhenOpened": "2024-11-22T16:24:41.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "Views\\Default\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T15:47:29.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_HomepageComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\ViewComponents\\_HomepageComponentPartial.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\_HomepageComponentPartial.cs",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\ViewComponents\\_HomepageComponentPartial.cs",
+              "RelativeToolTip": "ViewComponents\\_HomepageComponentPartial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:22:51.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_AuthorComponentPartial.cs",
+              "DocumentMoniker": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\ViewComponents\\_AuthorComponentPartial.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\_AuthorComponentPartial.cs",
+              "ToolTip": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\ViewComponents\\_AuthorComponentPartial.cs",
+              "RelativeToolTip": "ViewComponents\\_AuthorComponentPartial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T15:17:20.41Z",
               "EditorCaption": ""
             }
           ]

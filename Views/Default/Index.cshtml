@@ -7,7 +7,10 @@
 @await Component.InvokeAsync("_HomepageComponentPartial")
 
 <!-- Authors -->
-@await Component.InvokeAsync("_AuthorComponentPartial")
+<section id="authors">
+    @await Component.InvokeAsync("_AuthorComponentPartial")
+</section>
+@* @await Component.InvokeAsync("_AuthorComponentPartial") *@
 
 <!-- Books -->
 @await Component.InvokeAsync("_BookComponentPartial")

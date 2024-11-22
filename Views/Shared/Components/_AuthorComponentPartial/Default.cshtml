@@ -1,22 +1,81 @@
 ﻿@model List<Library.DAL.Entities.Author>
 
+@{
+	int count = 0;
+}
+
 <section id="portfolio" class="two">
 	<div class="container">
 
 		<header>
-			<h2>Portfolio</h2>
+			<h2>Yazarlar</h2>
+            <style>
+                .bootstrap-scope .table {
+                    border-collapse: collapse !important;
+                    width: 100% !important;
+                }
+
+                .bootstrap-scope .btn {
+                    font-size: 14px !important;
+                    padding: 0.375rem 0.75rem !important;
+                    border-radius: 0.25rem !important;
+                    color: #fff !important;
+                }
+
+                .bootstrap-scope .btn-danger {
+                    background-color: #dc3545 !important;
+                    border-color: #dc3545 !important;
+                }
+
+                .bootstrap-scope .btn-success {
+                    background-color: #28a745 !important;
+                    border-color: #28a745 !important;
+                }
+
+            </style>
+
 		</header>
 
-		<div class="row">
-			<table>
-				@foreach (var item in Model)
-				{
-					<li>
-						@item.FirstName @item.LastName @item.DateOfBirth.ToShortDateString()
-					</li>
-				}
-			</table>
-		</div>
+        <div class="bootstrap-scope">
+            <table class="table table-bordered table-hover mt-3 w-100">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Adı</th>
+                        <th scope="col">Soyadı</th>
+                        <th scope="col">Doğum Tarihi</th>
+                        <th scope="col">Sil</th>
+                        <th scope="col">Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td>@count</td>
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            <td>@item.DateOfBirth.ToShortDateString()</td>
+                            <td>
+                                <form asp-controller="Author" asp-action="DeleteAuthor" method="post">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button type="submit" class="btn btn-danger">Sil</button>
+                                </form>
+                            </td>
+                            <td>
+                                <a asp-controller="Author" asp-action="UpdateAuthor" asp-route-id="@item.Id" class="btn btn-success">Güncelle</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <button href="#contact" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                Yeni Yazar Ekle
+            </button>
+        </div>
+
+
 
 	</div>
 </section>

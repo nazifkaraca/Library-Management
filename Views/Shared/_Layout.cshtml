@@ -1,51 +1,42 @@
 ﻿<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net |
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 <head>
-	<title>Prologue by HTML5 UP</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="~/prologue/assets/css/main.css" />
+    <title>Prologue by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    @* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> *@
+    <!-- Prologue CSS -->
+    <link rel="stylesheet" href="~/prologue/assets/css/main.css" />
 </head>
 <body class="is-preload">
 
-	<!-- Header -->
-	<div id="header">
+    <!-- Header -->
+    <div id="header">
+        @await Component.InvokeAsync("_LayoutNavbarComponentPartial")
+    </div>
 
-		@await Component.InvokeAsync("_LayoutNavbarComponentPartial")
+    <!-- Main -->
+    <div id="main">
+        @RenderBody();
+    </div>
 
-	</div>
+    <!-- Footer -->
+    <div id="footer">
+        <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
 
-	<!-- Main -->
-	<div id="main">
-
-		@RenderBody();
-		
-	</div>
-
-	<!-- Footer -->
-	<div id="footer">
-
-		<!-- Copyright -->
-		<ul class="copyright">
-			<li>&copy; Untitled. All rights reserved.</li>
-			<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-		</ul>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="~/prologue/assets/js/jquery.min.js"></script>
-	<script src="~/prologue/assets/js/jquery.scrolly.min.js"></script>
-	<script src="~/prologue/assets/js/jquery.scrollex.min.js"></script>
-	<script src="~/prologue/assets/js/browser.min.js"></script>
-	<script src="~/prologue/assets/js/breakpoints.min.js"></script>
-	<script src="~/prologue/assets/js/util.js"></script>
-	<script src="~/prologue/assets/js/main.js"></script>
-
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/prologue/assets/js/jquery.min.js"></script>
+    <script src="~/prologue/assets/js/jquery.scrolly.min.js"></script>
+    <script src="~/prologue/assets/js/jquery.scrollex.min.js"></script>
+    <script src="~/prologue/assets/js/browser.min.js"></script>
+    <script src="~/prologue/assets/js/breakpoints.min.js"></script>
+    <script src="~/prologue/assets/js/util.js"></script>
+    <script src="~/prologue/assets/js/main.js"></script>
+    <!-- Bootstrap JS -->
 </body>
 </html>

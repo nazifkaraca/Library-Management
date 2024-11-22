@@ -31,7 +31,7 @@ namespace Library.Services
 			_context.SaveChanges();
 		}
 
-		public void BookUpdate(int id)
+        public void BookUpdate(int id)
 		{
 			Book book = _context.Books.FirstOrDefault(x => x.Id == id);
 
