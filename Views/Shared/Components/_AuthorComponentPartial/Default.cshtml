@@ -1,0 +1,22 @@
+﻿@model List<Library.DAL.Entities.Author>
+
+<section id="portfolio" class="two">
+	<div class="container">
+
+		<header>
+			<h2>Portfolio</h2>
+		</header>
+
+		<div class="row">
+			<table>
+				@foreach (var item in Model)
+				{
+					<li>
+						@item.FirstName @item.LastName @item.DateOfBirth.ToShortDateString()
+					</li>
+				}
+			</table>
+		</div>
+
+	</div>
+</section>
