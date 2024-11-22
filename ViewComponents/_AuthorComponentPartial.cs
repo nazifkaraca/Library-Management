@@ -5,7 +5,12 @@ namespace Library.ViewComponents
 {
 	public class _AuthorComponentPartial : ViewComponent
 	{
-		LibraryContext _context = new LibraryContext();
+		private readonly LibraryContext _context;
+
+		public _AuthorComponentPartial(LibraryContext context)
+		{
+			_context = context;
+		}
 
 		public IViewComponentResult Invoke()
 		{

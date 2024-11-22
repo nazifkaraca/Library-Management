@@ -5,7 +5,12 @@ namespace Library.ViewComponents
 {
 	public class _HomepageComponentPartial : ViewComponent
 	{
-		LibraryContext _context = new LibraryContext();	
+		public readonly LibraryContext _context;
+
+		public _HomepageComponentPartial(LibraryContext context)
+		{
+			_context = context;
+		}
 
 		public IViewComponentResult Invoke()
 		{

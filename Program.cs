@@ -1,3 +1,7 @@
+using Library.DAL.Context;
+using Library.Services;
+using Microsoft.EntityFrameworkCore;
+
 namespace Library
 {
     public class Program
@@ -6,10 +10,14 @@ namespace Library
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddDbContext<LibraryContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+			builder.Services.AddScoped<IBookService, BookService>();
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            var app = builder.Build();
+			var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

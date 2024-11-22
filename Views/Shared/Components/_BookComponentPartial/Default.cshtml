@@ -1,0 +1,35 @@
+﻿@model List<Book>
+
+<section id="contact" class="four">
+	<div class="container">
+
+		<header>
+			<h2>Kitaplar</h2>
+		</header>
+
+		<table>
+			@foreach (var item in Model)
+			{
+				<li>
+					Başlık: @item.Title 
+					Yazar: @item.Author 
+					Yayın: @item.PublishDate
+				</li>
+			}
+		</table>
+
+		<form method="post" action="#">
+			<div class="row">
+				<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+				<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+				<div class="col-12">
+					<textarea name="message" placeholder="Message"></textarea>
+				</div>
+				<div class="col-12">
+					<input type="submit" value="Send Message" />
+				</div>
+			</div>
+		</form>
+
+	</div>
+</section>

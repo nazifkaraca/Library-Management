@@ -8,6 +8,8 @@
         public required string Genre { get; set; }
         public required DateTime PublishDate { get; set; }
         public required string ISBN { get; set; } 
-        public required int CopiesAvailable { get; set; } 
-    }
+        public required int CopiesAvailable { get; set; }
+
+		public Author Author { get; set; }
+	}
 }
