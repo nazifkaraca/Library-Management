@@ -1,0 +1,37 @@
+﻿@model Library.DAL.Entities.Author
+
+@{
+    ViewData["Title"] = "CreateAuthor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/authorStyles.css"/>
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="form-container">
+            <h4 class="page-title">Yazar Ekleme</h4>
+            <form asp-action="CreateAuthor" asp-controller="Author" method="post">
+                <input type="hidden" asp-for="Id" />
+                <label>Yazar Adı</label>
+                <input type="text" asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+
+                <label>Yazar Soyadı</label>
+                <input type="text" asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+
+                <label>Doğum Tarihi</label>
+                <input type="date" asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+
+                <button type="submit" class="btn btn-success">Yazar Bilgilerini Ekle</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+

@@ -1,0 +1,45 @@
+﻿@model Book
+
+@{
+    ViewData["Title"] = "CreateBook";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/bookStyles.css" />
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="form-container">
+            <h4 class="page-title">Kitap Ekleme</h4>
+            <form asp-action="CreateBook" asp-controller="Book" method="post">
+                <input type="hidden" asp-for="Id" />
+                <label>Kitap Adı</label>
+                <input type="text" asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+
+                <label>Yazar Id</label>
+                <input type="text" asp-for="AuthorId" class="form-control" />
+                <span asp-validation-for="AuthorId" class="text-danger"></span>
+
+                <label>Kitap Türü</label>
+                <input type="text" asp-for="Genre" class="form-control" />
+                <span asp-validation-for="Genre" class="text-danger"></span>
+
+                <label>Yayın Tarihi</label>
+                <input type="date" asp-for="PublishDate" class="form-control" />
+                <span asp-validation-for="PublishDate" class="text-danger"></span>
+
+                <label>ISBN</label>
+                <input type="text" asp-for="ISBN" class="form-control" />
+                <span asp-validation-for="ISBN" class="text-danger"></span>
+
+                <label>Stok</label>
+                <input type="text" asp-for="CopiesAvailable" class="form-control" />
+                <span asp-validation-for="CopiesAvailable" class="text-danger"></span>
+
+                <button type="submit" class="btn btn-success">Kitap Bilgilerini Ekle</button>
+            </form>
+        </div>
+    </div>
+</div>
+

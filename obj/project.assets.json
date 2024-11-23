@@ -7763,19 +7763,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\monst\\.nuget\\packages\\": {}
+    "C:\\Users\\er\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\er\\source\\repos\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\Library.csproj",
-      "packagesPath": "C:\\Users\\monst\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\obj\\",
+      "projectPath": "C:\\Users\\er\\source\\repos\\Library\\Library.csproj",
+      "packagesPath": "C:\\Users\\er\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\er\\source\\repos\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\monst\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\er\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

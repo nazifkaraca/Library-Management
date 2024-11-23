@@ -1,431 +1,451 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Library.bundle.scp.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Library.bundle.scp.css",
       "PackagePath": "staticwebassets\\Library.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\css\\authorHomeStyles.css",
+      "PackagePath": "staticwebassets\\css\\authorHomeStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\css\\authorStyles.css",
+      "PackagePath": "staticwebassets\\css\\authorStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\css\\bookHomeStyles.css",
+      "PackagePath": "staticwebassets\\css\\bookHomeStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\css\\bookStyles.css",
+      "PackagePath": "staticwebassets\\css\\bookStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\LICENSE.txt",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\LICENSE.txt",
       "PackagePath": "staticwebassets\\prologue\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\README.txt",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\README.txt",
       "PackagePath": "staticwebassets\\prologue\\README.txt"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\css\\fontawesome-all.min.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\css\\fontawesome-all.min.css",
       "PackagePath": "staticwebassets\\prologue\\assets\\css\\fontawesome-all.min.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\css\\images\\ie\\grad0-15.svg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\css\\images\\ie\\grad0-15.svg",
       "PackagePath": "staticwebassets\\prologue\\assets\\css\\images\\ie\\grad0-15.svg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\css\\images\\overlay.png",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\css\\images\\overlay.png",
       "PackagePath": "staticwebassets\\prologue\\assets\\css\\images\\overlay.png"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\css\\main.css",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\css\\main.css",
       "PackagePath": "staticwebassets\\prologue\\assets\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\js\\breakpoints.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\js\\breakpoints.min.js",
       "PackagePath": "staticwebassets\\prologue\\assets\\js\\breakpoints.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\js\\browser.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\js\\browser.min.js",
       "PackagePath": "staticwebassets\\prologue\\assets\\js\\browser.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\js\\hover.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\js\\hover.js",
       "PackagePath": "staticwebassets\\prologue\\assets\\js\\hover.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\js\\jquery.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\prologue\\assets\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\js\\jquery.scrollex.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\js\\jquery.scrollex.min.js",
       "PackagePath": "staticwebassets\\prologue\\assets\\js\\jquery.scrollex.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\js\\jquery.scrolly.min.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\js\\jquery.scrolly.min.js",
       "PackagePath": "staticwebassets\\prologue\\assets\\js\\jquery.scrolly.min.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\js\\main.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\js\\main.js",
       "PackagePath": "staticwebassets\\prologue\\assets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\js\\util.js",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\js\\util.js",
       "PackagePath": "staticwebassets\\prologue\\assets\\js\\util.js"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\sass\\libs\\_breakpoints.scss",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\sass\\libs\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\prologue\\assets\\sass\\libs\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\sass\\libs\\_functions.scss",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\sass\\libs\\_functions.scss",
       "PackagePath": "staticwebassets\\prologue\\assets\\sass\\libs\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\sass\\libs\\_html-grid.scss",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\sass\\libs\\_html-grid.scss",
       "PackagePath": "staticwebassets\\prologue\\assets\\sass\\libs\\_html-grid.scss"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\sass\\libs\\_mixins.scss",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\sass\\libs\\_mixins.scss",
       "PackagePath": "staticwebassets\\prologue\\assets\\sass\\libs\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\sass\\libs\\_vars.scss",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\sass\\libs\\_vars.scss",
       "PackagePath": "staticwebassets\\prologue\\assets\\sass\\libs\\_vars.scss"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\sass\\libs\\_vendor.scss",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\sass\\libs\\_vendor.scss",
       "PackagePath": "staticwebassets\\prologue\\assets\\sass\\libs\\_vendor.scss"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\sass\\main.scss",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\sass\\main.scss",
       "PackagePath": "staticwebassets\\prologue\\assets\\sass\\main.scss"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-brands-400.eot",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-brands-400.svg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-brands-400.woff",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-regular-400.eot",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-regular-400.svg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-regular-400.woff",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.eot",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.svg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.woff",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\prologue\\assets\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\images\\avatar.jpg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\avatar.jpg",
       "PackagePath": "staticwebassets\\prologue\\images\\avatar.jpg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\images\\banner.jpg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\banner.jpg",
       "PackagePath": "staticwebassets\\prologue\\images\\banner.jpg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\images\\pic02.jpg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\librarylogo.jpg",
+      "PackagePath": "staticwebassets\\prologue\\images\\librarylogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic02.jpg",
       "PackagePath": "staticwebassets\\prologue\\images\\pic02.jpg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\images\\pic03.jpg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic03.jpg",
       "PackagePath": "staticwebassets\\prologue\\images\\pic03.jpg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\images\\pic04.jpg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic04.jpg",
       "PackagePath": "staticwebassets\\prologue\\images\\pic04.jpg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\images\\pic05.jpg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic05.jpg",
       "PackagePath": "staticwebassets\\prologue\\images\\pic05.jpg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\images\\pic06.jpg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic06.jpg",
       "PackagePath": "staticwebassets\\prologue\\images\\pic06.jpg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\images\\pic07.jpg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic07.jpg",
       "PackagePath": "staticwebassets\\prologue\\images\\pic07.jpg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\images\\pic08.jpg",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic08.jpg",
       "PackagePath": "staticwebassets\\prologue\\images\\pic08.jpg"
     },
     {
-      "Id": "C:\\Users\\monst\\source\\repos\\LibraryManagement\\wwwroot\\prologue\\index.html",
+      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\index.html",
       "PackagePath": "staticwebassets\\prologue\\index.html"
     },
     {

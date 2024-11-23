@@ -15,7 +15,7 @@ namespace Library.ViewComponents
 
 		public IViewComponentResult Invoke()
 		{
-			var books = _bookService.GetAllBooks();
+			var books = _bookService.GetBooks();
 			return View(books);
 		}
 	}

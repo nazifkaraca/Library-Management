@@ -4,10 +4,10 @@ namespace Library.Services
 {
 	public interface IBookService
 	{
-		List<Book> GetAllBooks();
+		List<Book> GetBooks();
 		Book GetBookById(int id);
 		void BookCreate(Book book);
-		void BookUpdate(int id);
+		void BookUpdate(Book book);
 		void BookDelete(int id);
 	}
 }

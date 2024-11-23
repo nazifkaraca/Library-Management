@@ -18,7 +18,7 @@ namespace Library.ViewComponents
 		public IViewComponentResult Invoke()
 		{
             ViewBag.Authors = authorService.GetAuthors();
-			ViewBag.Books = bookService.GetAllBooks();
+			ViewBag.Books = bookService.GetBooks();
 
             return View();
 		}

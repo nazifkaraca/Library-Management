@@ -35,7 +35,8 @@ namespace Library.Services
 
         public void AuthorUpdate(Author author)
         {
-            var existingAuthor = _context.Authors.FirstOrDefault(a => a.Id == author.Id);
+            var existingAuthor = _context.Authors.FirstOrDefault(x => x.Id == author.Id);
+
             if (existingAuthor != null)
             {
                 existingAuthor.FirstName = author.FirstName;

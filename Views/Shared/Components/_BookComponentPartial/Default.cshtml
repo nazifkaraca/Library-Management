@@ -1,35 +1,59 @@
-﻿@model List<Book>
+﻿@model List<Library.DAL.Entities.Book>
 
-<section id="contact" class="four">
-	<div class="container">
+@{
+    int count = 0;
+}
 
-		<header>
-			<h2>Kitaplar</h2>
-		</header>
+<section id="authors" class="two">
+    <div class="container">
 
-		<table>
-			@foreach (var item in Model)
-			{
-				<li>
-					Başlık: @item.Title 
-					Yazar: @item.Author 
-					Yayın: @item.PublishDate
-				</li>
-			}
-		</table>
+        <header>
+            <h2>Kitaplar</h2>
+            <link rel="stylesheet" href="~/css/bookHomeStyles.css" />
+        </header>
 
-		@* <form method="post" action="#">
-			<div class="row">
-				<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-				<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-				<div class="col-12">
-					<textarea name="message" placeholder="Message"></textarea>
-				</div>
-				<div class="col-12">
-					<input type="submit" value="Send Message" />
-				</div>
-			</div>
-		</form> *@
-
-	</div>
+        <div class="bootstrap-scope">
+            <table class="table table-bordered table-hover mt-3 w-100">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Kitap Adı</th>
+                        <th scope="col">Yazar Id</th>
+                        <th scope="col">Kitap Türü</th>
+                        <th scope="col">Yayın Tarihi</th>
+                        <th scope="col">ISBN</th>
+                        <th scope="col">Stok</th>
+                        <th scope="col">Sil</th>
+                        <th scope="col">Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        count++;
+                        <tr>
+                            <td>@count</td>
+                            <td>@item.Title</td>
+                            <td>@item.AuthorId</td>
+                            <td>@item.Genre</td>
+                            <td>@item.PublishDate.ToShortDateString()</td>
+                            <td>@item.ISBN</td>
+                            <td>@item.CopiesAvailable</td>
+                            <td>
+                                <a asp-controller="Book" asp-action="DeleteBook" asp-route-id="@item.Id"
+                                   class="btn btn-danger"
+                                   onclick="return confirm('Bu kitabı silmek istediğinizden emin misiniz?');">
+                                    Sil
+                                </a>
+                            </td>
+                            <td>
+                                <a asp-controller="Book" asp-action="UpdateBook" asp-route-id="@item.Id" class="btn btn-success">Güncelle</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a asp-controller="Book" asp-action="CreateBook" class="btn btn-success">Kitap Ekle</a>
+        </div>
+    </div>
 </section>

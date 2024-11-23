@@ -3,7 +3,7 @@ using Library.DAL.Entities;
 
 namespace Library.Services
 {
-	public class BookService : IBookService
+    public class BookService : IBookService
 	{
 		private readonly LibraryContext _context;
 
@@ -20,47 +20,48 @@ namespace Library.Services
 
 		public void BookDelete(int id)
 		{
-			Book book = _context.Books.FirstOrDefault(x => x.Id == id);
-
-			if (book == null)
-			{
-				throw new KeyNotFoundException($"Kitap Id'si ({id}) bulunamadı.");
-			}
-
-			_context.Books.Remove(book);
-			_context.SaveChanges();
-		}
-
-        public void BookUpdate(int id)
-		{
-			Book book = _context.Books.FirstOrDefault(x => x.Id == id);
+			var book = _context.Books.FirstOrDefault(x => x.Id == id);
 
 			if (book != null)
 			{
-				_context.Update(book);
-				_context.SaveChanges();
+                _context.Books.Remove(book);
+                _context.SaveChanges();
 			}
 			else
 			{
-				throw new KeyNotFoundException($"Kitap Id'si ({id}) bulunamadı.");
-			}
+                throw new KeyNotFoundException($"Kitap Id'si ({id}) bulunamadı.");
+            }
 		}
 
-		public List<Book> GetAllBooks()
+        public void BookUpdate(Book book)
+		{
+			var existingBook = _context.Books.FirstOrDefault(x => x.Id == book.Id);
+
+            if (existingBook != null)
+            {
+                existingBook.Title = book.Title;
+                existingBook.Genre = book.Genre;
+                existingBook.AuthorId = book.AuthorId;
+                existingBook.PublishDate = book.PublishDate;
+                existingBook.ISBN = book.ISBN;
+                existingBook.CopiesAvailable = book.CopiesAvailable;
+
+                _context.SaveChanges();
+            }
+            else
+            {
+                throw new KeyNotFoundException("Kitap bulunamadı.");
+            }
+        }
+
+        public Book GetBookById(int id)
+		{
+			return _context.Books.FirstOrDefault(x => x.Id == id);
+		}
+
+		public List<Book> GetBooks()
 		{
 			return _context.Books.ToList();
-		}
-
-		public Book GetBookById(int id)
-		{
-			Book book = _context.Books.FirstOrDefault(x => x.Id == id);
-
-			if (book != null)
-			{
-				return book;
-			}
-
-			throw new KeyNotFoundException($"Kitap Id'si ({id}) bulunamadı.");
 		}
 	}
 }

@@ -1,6 +1,9 @@
 ﻿using Library.DAL.Entities;
 using Library.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Runtime.Intrinsics.Arm;
+
 
 namespace Library.Controllers
 {
@@ -31,14 +34,37 @@ namespace Library.Controllers
         [HttpPost]
         public IActionResult UpdateAuthor(Author author)
         {
-            if (ModelState.IsValid) // Model doğrulama kontrolü
+            _context.AuthorUpdate(author); // Güncelleme işlemini yap
+
+            return Redirect("/#authors"); // Güncelleme sonrası ana sayfaya yönlendir
+        }
+
+
+        [HttpGet]
+        public IActionResult CreateAuthor()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CreateAuthor(Author author)
+        {
+            if (ModelState.IsValid)
             {
-                _context.AuthorUpdate(author); // Güncelleme işlemini yap
-                return RedirectToAction("Index", "Home"); // Güncelleme sonrası ana sayfaya yönlendir
+                return View(author); // Hatalıysa aynı formu geri döndür
             }
 
-            // Hata varsa aynı formu tekrar göster
-            return View(author);
+            _context.AuthorCreate(author); // Yazar bilgilerini kaydet
+            ModelState.Clear();
+            TempData["SuccessMessage"] = "Yazar başarıyla eklendi!"; // Başarı mesajı ekle
+            return Redirect("/#authors"); // Sayfayı sıfırlamak için yeniden yönlendir
+        }
+
+
+        public IActionResult DeleteAuthor(int id)
+        {
+            _context.AuthorDelete(id);
+            return Redirect("/#authors");
         }
 
         // Örnek: Yazar Listesi
@@ -47,6 +73,5 @@ namespace Library.Controllers
             var authors = _context.GetAuthors(); // Tüm yazarları getir
             return View(authors); // Yazar listesini View'e gönder
         }
-
     }
 }

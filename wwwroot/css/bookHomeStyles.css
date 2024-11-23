@@ -1,0 +1,21 @@
+﻿.bootstrap-scope .table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+}
+
+.bootstrap-scope .btn {
+    font-size: 14px !important;
+    padding: 0.375rem 0.75rem !important;
+    border-radius: 0.25rem !important;
+    color: #fff !important;
+}
+
+.bootstrap-scope .btn-danger {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.bootstrap-scope .btn-success {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
