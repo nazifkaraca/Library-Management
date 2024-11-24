@@ -1,6 +1,9 @@
 ﻿using Library.DAL.Entities;
 using Library.Services;
+using Library.ViewComponents;
+using Library.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Library.Controllers
 {
@@ -16,15 +19,35 @@ namespace Library.Controllers
         [HttpGet]
         public IActionResult UpdateBook(int id)
         {
-            var book = _context.GetBookById(id);
+            var book = _context.GetBookById(id); // Kitabı ID ile al
 
             if (book == null)
             {
-                return NotFound();
+                return NotFound(); // Kitap yoksa 404 döner
             }
 
-            return View(book);
+            var authors = _context.GetAuthors(); // Yazar listesini al
+
+            var model = new BookViewModel
+            {
+                Id = book.Id, // Kitap ID
+                Title = book.Title, // Kitap Başlığı
+                Genre = book.Genre, // Kitap Açıklaması
+                PublishDate = book.PublishDate, // Kitap Açıklaması
+                ISBN = book.ISBN, // Kitap Açıklaması
+                AuthorId = book.AuthorId, // Seçili Yazar
+                CopiesAvailable = book.CopiesAvailable, // Seçili Yazar
+                Authors = authors.Select(a => new SelectListItem
+                {
+                    Value = a.Id.ToString(), // Yazar ID
+                    Text = a.Id + " | " + a.FirstName + " " + a.LastName, // Yazar adı
+                    Selected = a.Id == book.AuthorId // Mevcut yazar seçili
+                }).ToList()
+            };
+
+            return View(model);
         }
+
 
         [HttpPost]
         public IActionResult UpdateBook(Book book)
@@ -38,7 +61,18 @@ namespace Library.Controllers
         [HttpGet]
         public IActionResult CreateBook()
         {
-            return View();
+            var authors = _context.GetAuthors();
+
+            var model = new BookViewModel
+            {
+                Authors = authors.Select(a => new SelectListItem
+                {
+                    Value = a.Id.ToString(), // AuthorId
+                    Text = a.Id + " | " + a.FirstName + " " + a.LastName // Author'un adı
+                }).ToList()
+            };
+
+            return View(model);
         }
 
         [HttpPost]

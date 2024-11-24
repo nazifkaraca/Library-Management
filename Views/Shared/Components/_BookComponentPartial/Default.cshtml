@@ -1,10 +1,10 @@
-﻿@model List<Library.DAL.Entities.Book>
+﻿@model List<Book>
 
 @{
     int count = 0;
 }
 
-<section id="authors" class="two">
+<section id="books" class="two">
     <div class="container">
 
         <header>
@@ -17,8 +17,8 @@
                 <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Kitap Adı</th>
                         <th scope="col">Yazar Id</th>
+                        <th scope="col">Kitap Adı</th>
                         <th scope="col">Kitap Türü</th>
                         <th scope="col">Yayın Tarihi</th>
                         <th scope="col">ISBN</th>
@@ -33,8 +33,8 @@
                         count++;
                         <tr>
                             <td>@count</td>
-                            <td>@item.Title</td>
                             <td>@item.AuthorId</td>
+                            <td>@item.Title</td>
                             <td>@item.Genre</td>
                             <td>@item.PublishDate.ToShortDateString()</td>
                             <td>@item.ISBN</td>

@@ -1,8 +1,9 @@
-﻿@model Book
+﻿@model BookViewModel
 
 @{
     ViewData["Title"] = "UpdateBook";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
 }
 
 <link rel="stylesheet" href="~/css/bookStyles.css" />
@@ -17,9 +18,10 @@
                 <input type="text" asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
 
-                <label>Yazar Id</label>
-                <input type="text" asp-for="AuthorId" class="form-control" />
-                <span asp-validation-for="AuthorId" class="text-danger"></span>
+                <label asp-for="AuthorId">Yazar</label>
+                <select asp-for="AuthorId" asp-items="@Model.Authors" class="form-control">
+                    <option value="">Yazar Seçiniz</option> 
+                </select>
 
                 <label>Kitap Türü</label>
                 <input type="text" asp-for="Genre" class="form-control" />

@@ -9,5 +9,7 @@ namespace Library.Services
 		void BookCreate(Book book);
 		void BookUpdate(Book book);
 		void BookDelete(int id);
-	}
+
+		List<Author> GetAuthors();
+    }
 }

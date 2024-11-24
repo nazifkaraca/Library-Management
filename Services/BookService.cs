@@ -63,5 +63,10 @@ namespace Library.Services
 		{
 			return _context.Books.ToList();
 		}
-	}
+
+        public List<Author> GetAuthors()
+        {
+            return _context.Authors.ToList();
+        }
+    }
 }

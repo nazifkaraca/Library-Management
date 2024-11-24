@@ -1,6 +1,8 @@
 ﻿using Library.DAL.Entities;
 using Library.Services;
+using Library.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Linq;
 using System.Runtime.Intrinsics.Arm;
 
@@ -27,7 +29,15 @@ namespace Library.Controllers
                 return NotFound(); // Eğer ID eşleşen bir yazar bulunmazsa
             }
 
-            return View(author); // Yazar modelini View'e gönder
+            var model = new AuthorViewModel
+            {
+                Id = author.Id,
+                FirstName = author.FirstName,
+                LastName = author.LastName,
+                DateOfBirth = author.DateOfBirth
+            };
+
+            return View(model); // Yazar modelini View'e gönder
         }
 
         // Güncelleme işlemini yapar (POST)

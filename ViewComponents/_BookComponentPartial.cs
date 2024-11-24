@@ -1,6 +1,8 @@
 ﻿using Library.DAL.Entities;
 using Library.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using NuGet.Versioning;
 
 namespace Library.ViewComponents
 {
@@ -16,6 +18,7 @@ namespace Library.ViewComponents
 		public IViewComponentResult Invoke()
 		{
 			var books = _bookService.GetBooks();
+
 			return View(books);
 		}
 	}

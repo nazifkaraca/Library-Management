@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S1a+GIqOufG3V/oGqSdcc4+4zehF6nMhcKcoo4xrPO8=",
+  "Hash": "+sKrfgAH9vj5lLXDXINMTqhYwkTsv0Q8dRs0TdCxg0c=",
   "Source": "Library",
   "BasePath": "_content/Library",
   "Mode": "Default",
@@ -1915,6 +1915,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\prologue\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\aboutlogo.jpeg",
+      "SourceId": "Library",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\",
+      "BasePath": "_content/Library",
+      "RelativePath": "prologue/images/aboutlogo.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\prologue\\images\\aboutlogo.jpeg"
     },
     {
       "Identity": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\avatar.jpg",

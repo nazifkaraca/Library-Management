@@ -1,6 +1,6 @@
-﻿@model Book
+﻿@model BookViewModel
 
-@{
+@{ 
     ViewData["Title"] = "CreateBook";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -17,14 +17,15 @@
                 <input type="text" asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
 
-                <label>Yazar Id</label>
-                <input type="text" asp-for="AuthorId" class="form-control" />
-                <span asp-validation-for="AuthorId" class="text-danger"></span>
-
+                <label asp-for="AuthorId">Yazar</label>
+                <select asp-for="AuthorId" asp-items="@Model.Authors" class="form-control">
+                    <option value="">Yazar Seçiniz</option> 
+                </select>
+                
                 <label>Kitap Türü</label>
                 <input type="text" asp-for="Genre" class="form-control" />
                 <span asp-validation-for="Genre" class="text-danger"></span>
-
+                
                 <label>Yayın Tarihi</label>
                 <input type="date" asp-for="PublishDate" class="form-control" />
                 <span asp-validation-for="PublishDate" class="text-danger"></span>
