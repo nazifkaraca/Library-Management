@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Library.ViewComponents
+namespace Library.Views.ViewComponents
 {
     public class _ScriptsComponentPartial : ViewComponent
     {

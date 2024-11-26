@@ -2,10 +2,10 @@
 using Library.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Library.ViewComponents
+namespace Library.Views.ViewComponents
 {
-	public class _HomepageComponentPartial : ViewComponent
-	{
+    public class _HomepageComponentPartial : ViewComponent
+    {
         public readonly IAuthorService authorService;
         public readonly IBookService bookService;
 
@@ -15,12 +15,12 @@ namespace Library.ViewComponents
             this.bookService = bookService;
         }
 
-		public IViewComponentResult Invoke()
-		{
+        public IViewComponentResult Invoke()
+        {
             ViewBag.Authors = authorService.GetAuthors();
-			ViewBag.Books = bookService.GetBooks();
+            ViewBag.Books = bookService.GetBooks();
 
             return View();
-		}
-	}
+        }
+    }
 }

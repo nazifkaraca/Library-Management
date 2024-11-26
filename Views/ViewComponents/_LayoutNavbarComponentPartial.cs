@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Library.ViewComponents
+namespace Library.Views.ViewComponents
 {
-    public class _FooterComponentPartial : ViewComponent
+    public class _LayoutNavbarComponentPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {

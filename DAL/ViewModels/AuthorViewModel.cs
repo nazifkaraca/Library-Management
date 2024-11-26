@@ -1,7 +1,7 @@
 ﻿using Library.DAL.Entities;
 using System.ComponentModel.DataAnnotations;
 
-namespace Library.ViewModels
+namespace Library.DAL.ViewModels
 {
     public class AuthorViewModel
     {

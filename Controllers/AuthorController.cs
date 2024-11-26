@@ -1,6 +1,6 @@
 ﻿using Library.DAL.Entities;
 using Library.Services;
-using Library.ViewModels;
+using Library.DAL.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Linq;

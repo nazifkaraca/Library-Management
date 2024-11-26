@@ -409,44 +409,8 @@
       "PackagePath": "staticwebassets\\prologue\\images\\aboutlogo.jpeg"
     },
     {
-      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\avatar.jpg",
-      "PackagePath": "staticwebassets\\prologue\\images\\avatar.jpg"
-    },
-    {
-      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\banner.jpg",
-      "PackagePath": "staticwebassets\\prologue\\images\\banner.jpg"
-    },
-    {
       "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\librarylogo.jpg",
       "PackagePath": "staticwebassets\\prologue\\images\\librarylogo.jpg"
-    },
-    {
-      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic02.jpg",
-      "PackagePath": "staticwebassets\\prologue\\images\\pic02.jpg"
-    },
-    {
-      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic03.jpg",
-      "PackagePath": "staticwebassets\\prologue\\images\\pic03.jpg"
-    },
-    {
-      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic04.jpg",
-      "PackagePath": "staticwebassets\\prologue\\images\\pic04.jpg"
-    },
-    {
-      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic05.jpg",
-      "PackagePath": "staticwebassets\\prologue\\images\\pic05.jpg"
-    },
-    {
-      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic06.jpg",
-      "PackagePath": "staticwebassets\\prologue\\images\\pic06.jpg"
-    },
-    {
-      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic07.jpg",
-      "PackagePath": "staticwebassets\\prologue\\images\\pic07.jpg"
-    },
-    {
-      "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\images\\pic08.jpg",
-      "PackagePath": "staticwebassets\\prologue\\images\\pic08.jpg"
     },
     {
       "Id": "C:\\Users\\er\\source\\repos\\Library\\wwwroot\\prologue\\index.html",
