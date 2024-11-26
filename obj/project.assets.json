@@ -7768,11 +7768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\er\\source\\repos\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\er\\source\\repos\\Library\\Codes\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\er\\source\\repos\\Library\\Library.csproj",
+      "projectPath": "C:\\Users\\er\\source\\repos\\Library\\Codes\\Library.csproj",
       "packagesPath": "C:\\Users\\er\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\er\\source\\repos\\Library\\obj\\",
+      "outputPath": "C:\\Users\\er\\source\\repos\\Library\\Codes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\er\\AppData\\Roaming\\NuGet\\NuGet.Config",
