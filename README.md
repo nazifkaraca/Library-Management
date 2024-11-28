@@ -1,6 +1,8 @@
-﻿# Karaca Library
+<h1 align="center">Karaca Library</h1>
 
 An **ASP.NET Core MVC** application for managing a library's book and author operations. This project demonstrates the use of **Object-Oriented Programming (OOP)** principles, **Entity Framework Core**, and **Dependency Injection (DI)** to build a robust and scalable web application.
+
+![image](https://github.com/user-attachments/assets/0b146a55-6188-4ef6-90f8-92fc55f90ddf)
 
 ---
 
