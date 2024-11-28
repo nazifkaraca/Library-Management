@@ -6,57 +6,75 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-    .form-container h4 {
-        font-size: 24px;
-        font-weight: 600;
-        color: #333;
-        margin-bottom: 20px;
-    }
+.form-container h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
 
-    /* Form Elemanları */
-    .form-container label {
-        font-size: 14px;
-        font-weight: 500;
-        color: #555;
-    }
+/* Form Elemanları */
+.form-container label {
+    padding: 5px 1px; /* Vertical 10px, Horizontal 10px */
+    text-align: left; /* Optional: Center-align text */
+    font-size: 14px;
+    font-weight: bolder;
+    color: brown;
+}
 
-    .form-container input[type="text"],
-    .form-container input[type="date"] {
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-        font-size: 14px;
-        color: #333;
-        width: 100%;
-        margin-bottom: 10px;
-    }
+.form-container input[type="text"],
+.form-container input[type="date"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    width: 100%;
+    margin-bottom: 10px;
+}
 
-    .form-container input:focus {
-        outline: none;
-        border-color: #007bff;
-        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    }
+.form-container input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
 
-    /* Validasyon Mesajı */
-    .form-container .text-danger {
-        font-size: 12px;
-        margin-top: -5px;
-        margin-bottom: 10px;
-        display: block;
-    }
+/* Validasyon Mesajı */
+.form-container .text-danger {
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    display: block;
+}
 
-    /* Buton Stili */
-    .form-container .btn {
-        font-size: 16px;
-        padding: 10px 20px;
-        border-radius: 5px;
-        background-color: #28a745;
-        border: none;
-        color: white;
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 900;
+    position: sticky; /* Sabit başlık */
+    top: 0;
+}
 
-        .form-container .btn:hover {
-            background-color: #218838;
-        }
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Geri Dön Butonu */
+.btn-warning {
+    background-color: #d1c81d;
+    border-color: #d1c81d;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a.btn-warning:hover {
+    background-color: #b3a617;
+}

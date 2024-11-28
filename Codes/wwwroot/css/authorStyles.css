@@ -1,14 +1,4 @@
 ﻿/* Form ve Genel Container Stili */
-a.btn-warning {
-    background-color: #d1c81d !important;
-    border-color: #d1c81d !important;
-    padding: 5px 15px;
-    font-size: 14px;
-    color: white;
-    border-radius: 4px;
-    transition: background-color 0.3s ease-in-out;
-}
-
 .form-container {
     background-color: #f9f9f9;
     padding: 10px;
@@ -25,7 +15,7 @@ a.btn-warning {
 
 .form-container label {
     padding: 10px 5px; /* Vertical 10px, Horizontal 10px */
-    text-align: center; /* Optional: Center-align text */
+    text-align: left; /* Optional: Center-align text */
     font-size: 14px;
     font-weight: bolder;
     color: brown;
@@ -61,17 +51,6 @@ a.btn-warning {
     margin-top: -5px;
     margin-bottom: 10px;
     display: block;
-}
-
-.form-container .btn {
-    font-size: 16px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #28a745;
-    border: none;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 .form-container .btn:hover {
@@ -139,6 +118,16 @@ a.btn-warning {
     transition: background-color 0.3s ease-in-out;
 }
 
+.btn-warning {
+    background-color: #d1c81d !important;
+    border-color: #d1c81d !important;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
 
 .btn-success:hover {
     background-color: #218838;
