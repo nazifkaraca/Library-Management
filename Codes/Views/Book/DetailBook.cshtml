@@ -1,0 +1,36 @@
+﻿@model Book
+
+@{
+    ViewData["Title"] = "DetailBook";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/bookStyles.css" />
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="form-container">
+            <h4 class="page-title">Kitap Görüntüleme</h4>
+
+            <label asp-for="Title">Kitap Adı</label>
+            <p class="form-control">@Model.Title</p>
+
+            <label asp-for="AuthorId">Yazar</label>
+            <p class="form-control">@Model.AuthorId</p>
+
+            <label asp-for="Genre">Kitap Türü</label>
+            <p class="form-control">@Model.Genre</p>
+
+            <label asp-for="PublishDate">Yayın Tarihi</label>
+            <p class="form-control">@Model.PublishDate.ToString("dd-MM-yyyy")</p>
+
+            <label asp-for="ISBN">ISBN</label>
+            <p class="form-control">@Model.ISBN</p>
+
+            <label asp-for="CopiesAvailable">Stok</label>
+            <p class="form-control">@Model.CopiesAvailable</p>
+
+            <a href="/#books" class="btn btn-warning">Geri Dön</a>
+        </div>
+    </div>
+</div>

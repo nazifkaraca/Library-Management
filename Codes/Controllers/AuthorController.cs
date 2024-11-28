@@ -70,11 +70,27 @@ namespace Library.Controllers
             return Redirect("/#authors"); // Sayfayı sıfırlamak için yeniden yönlendir
         }
 
-
         public IActionResult DeleteAuthor(int id)
         {
             _context.AuthorDelete(id);
             return Redirect("/#authors");
+        }
+
+        [HttpGet]
+        public IActionResult DetailAuthor(int id)
+        {
+            var author = _context.GetAuthorById(id);
+            var book = _context.AuthorBooks(author);
+
+            var model = new AuthorViewModel
+            {
+                Id = author.Id,
+                FirstName = author.FirstName,
+                LastName = author.LastName,
+                DateOfBirth = author.DateOfBirth,
+                Books = book
+            };
+            return View(model);
         }
 
         // Örnek: Yazar Listesi

@@ -1,5 +1,8 @@
 ﻿using Library.DAL.Context;
 using Library.DAL.Entities;
+using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.EntityFrameworkCore;
+using NuGet.Versioning;
 
 namespace Library.Services
 {
@@ -10,6 +13,13 @@ namespace Library.Services
         public AuthorService(LibraryContext context)
         {
             _context = context;
+        }
+
+        public ICollection<Book> AuthorBooks(Author author)
+        {
+            return _context.Books
+                           .Where(x => x.AuthorId == author.Id) // Yazarın kitaplarını filtreler.
+                           .ToList();
         }
 
         public void AuthorCreate(Author author)

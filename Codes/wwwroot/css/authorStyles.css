@@ -1,7 +1,17 @@
 ﻿/* Form ve Genel Container Stili */
+a.btn-warning {
+    background-color: #d1c81d !important;
+    border-color: #d1c81d !important;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
 .form-container {
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -14,9 +24,19 @@
 }
 
 .form-container label {
+    padding: 10px 5px; /* Vertical 10px, Horizontal 10px */
+    text-align: center; /* Optional: Center-align text */
     font-size: 14px;
-    font-weight: 500;
-    color: #555;
+    font-weight: bolder;
+    color: brown;
+}
+
+.form-control {
+    padding: 0px 5px; /* Vertical 10px, Horizontal 10px */
+    text-align: left; /* Optional: Center-align text */
+    font-size: 14px;
+    font-weight: bolder;
+    color: black;
 }
 
 .form-container input[type="text"],
@@ -67,20 +87,22 @@
 }
 
 .table {
-    width: 100%;
+    padding: 10px 10px; /* Vertical 10px, Horizontal 10px */
+    text-align: center; /* Optional: Center-align text */
     border-collapse: collapse;
+    width: 100%;
 }
 
 .table th,
 .table td {
-    padding: 10px;
+    padding: 5px;
     text-align: left;
     border: 1px solid #ddd;
 }
 
 .table th {
     background-color: #f8f9fa;
-    font-weight: 600;
+    font-weight: 900;
     position: sticky; /* Sabit başlık */
     top: 0;
 }
@@ -117,7 +139,9 @@
     transition: background-color 0.3s ease-in-out;
 }
 
+
 .btn-success:hover {
     background-color: #218838;
 }
+
 

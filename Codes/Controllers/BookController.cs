@@ -100,6 +100,13 @@ namespace Library.Controllers
             return Redirect("/#books");
         }
 
+        [HttpGet]
+        public IActionResult DetailBook(int id)
+        {
+            var books = _context.GetBookById(id);
+            return View(books);
+        }
+
         public IActionResult Index()
         {
             var books = _context.GetBooks(); // Retrieve all books

@@ -1,0 +1,43 @@
+﻿@model AuthorViewModel
+
+@{
+    ViewData["Title"] = "DetailAuthor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/authorStyles.css" />
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="form-container">
+            <h4 class="page-title">Yazar Görüntüleme</h4>
+
+            <label asp-for="FirstName">Yazar Adı</label>
+            <p class="form-control">@Model.FirstName</p>
+
+            <label asp-for="LastName">Yazar Soyadı</label>
+            <p class="form-control">@Model.LastName</p>
+
+            <label asp-for="DateOfBirth">Doğum Tarihi</label>
+            <p class="form-control">@Model.DateOfBirth.ToString("dd-MM-yyyy")</p>
+
+            <label asp-for="Books">Yazarın Kitapları</label>
+            @foreach (var book in Model.Books)
+            {
+                <table>
+                    <tr>
+                        <th>Kitap Id</th>
+                        <th>Kitap Başlığı</th>
+                    </tr>
+                    <tr>
+                        <td>@book.Id</td>
+                        <td>@book.Title</td>
+                    </tr>
+                </table>
+            }
+            <a href="/#authors" class="btn btn-success">Geri Dön</a>
+        </div>
+    </div>
+</div>
+
+

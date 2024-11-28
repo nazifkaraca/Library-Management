@@ -9,5 +9,6 @@ namespace Library.Services
         void AuthorCreate(Author author); // Yeni bir yazar ekle
         void AuthorUpdate(Author author); // Yazar bilgilerini güncelle
         void AuthorDelete(int id); // Yazar sil
+        ICollection<Book> AuthorBooks(Author author);
     }
 }

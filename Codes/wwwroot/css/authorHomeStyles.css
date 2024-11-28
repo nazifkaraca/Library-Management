@@ -3,6 +3,12 @@
     width: 100% !important;
 }
 
+.bootstrap-scope .table th,
+.bootstrap-scope .table td {
+    padding: 10px 10px; /* Vertical 10px, Horizontal 10px */
+    text-align: center; /* Optional: Center-align text */
+}
+
 .bootstrap-scope .btn {
     font-size: 14px !important;
     padding: 0.375rem 0.75rem !important;
@@ -18,4 +24,9 @@
 .bootstrap-scope .btn-success {
     background-color: #28a745 !important;
     border-color: #28a745 !important;
+}
+
+.bootstrap-scope .btn-warning {
+    background-color: #d1c81d;
+    border-color: #d1c81d;
 }
