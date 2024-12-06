@@ -24,6 +24,6 @@ namespace Library.DAL.Entities
         [Required]
         public int CopiesAvailable { get; set; }
 
-        public Author Author { get; set; }
+        public Author? Author { get; set; }
 	}
 }

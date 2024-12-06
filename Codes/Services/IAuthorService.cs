@@ -4,11 +4,11 @@ namespace Library.Services
 {
     public interface IAuthorService
     {
-        List<Author> GetAuthors(); // Yazar listesini getir
-        Author GetAuthorById(int id); // Belirli bir yazarı ID'ye göre getir
-        void AuthorCreate(Author author); // Yeni bir yazar ekle
-        void AuthorUpdate(Author author); // Yazar bilgilerini güncelle
-        void AuthorDelete(int id); // Yazar sil
-        ICollection<Book> AuthorBooks(Author author);
+        List<Author> GetAuthors(); // Get all authors in a list
+        Author GetAuthorById(int id); // Get by author id
+        void AuthorCreate(Author author); // Create a new author
+        void AuthorUpdate(Author author); // Update author
+        void AuthorDelete(int id); // Delete author by id
+        ICollection<Book> AuthorBooks(Author author); // Book collection of an author
     }
 }
