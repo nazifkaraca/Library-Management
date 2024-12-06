@@ -17,13 +17,13 @@ namespace Library.DAL.ViewModels
         public string Genre { get; set; }
 
         [Required(ErrorMessage = "Yayınlanma tarihi zorunludur.")]
-        public DateTime PublishDate { get; set; }
+        public DateTime? PublishDate { get; set; }
 
         [Required(ErrorMessage = "ISBN bigisi zorunludur.")]
         public string ISBN { get; set; }
 
         [Required(ErrorMessage = "Stok durumu zorunludur.")]
-        public int CopiesAvailable { get; set; }
+        public int? CopiesAvailable { get; set; }
 
         public IEnumerable<SelectListItem> Authors { get; set; } // DropDownList için
     }
